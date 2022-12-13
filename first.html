@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="mid" class = "p1"></div>
+        <div  class="mid1" class = "p1"></div>
+        <div  class="mid3" class = "p1"></div>
+        <div  class="mid4" class = "p1"></div>
+   </div>
+    <style>
+ 
+.parent{
+  position: relative;
+   left: 550px;
+   top: 150px;
+
+}
+      body{
+        background-image: linear-gradient(270deg, rgb(194, 156, 203), rgb(93, 34, 107));
+      }
+
+      .mid{
+      width: 43px;
+      height: 140px;
+      background: #FEF9CA ;
+      position: absolute; 
+      top: 80px;
+      left: 145px;
+      transform: skew(-20deg);
+  
+      }
+    
+      .mid1{
+      width: 42px;
+      height: 140px;
+      background: #C5B732;
+      position: absolute; 
+      top: 80px;
+      left: 210px;
+      transform: skew(20deg);
+      z-index:-2;
+      }
+      .mid3{
+      width: 53px;
+      height: 51px;
+      background: #E38F66;
+      position: absolute; 
+      top: 170px;
+      left: 149px;
+      transform: skew(-40deg);
+      }
+        .mid4{
+      width: 53px;
+      height: 51px;
+      background: #AA445F;
+      position: absolute; 
+      top: 170px;
+      left: 197px;
+      transform: skew(40deg);
+      z-index: -1;
+      }
+      
+    </style>
+
+
+</body>
+</html>
